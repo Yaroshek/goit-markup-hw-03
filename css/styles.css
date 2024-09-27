@@ -325,15 +325,13 @@ font-family: "Roboto", sans-serif;
     padding: 100px 0;
     background-color: #2e2f42;
 }
-.finish-con{
+.finish-con {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
-   
-    gap: 17.5px;
 }
 .footer-blue{
-    display: inline-block;
+    display: block;
         margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -344,7 +342,6 @@ font-family: "Roboto", sans-serif;
         color: #4d5ae5;
 }
 .logo-footer{
-    display: inline-block;
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
