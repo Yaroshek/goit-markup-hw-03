@@ -325,9 +325,6 @@ font-family: "Roboto", sans-serif;
     padding: 100px 0;
     background-color: #2e2f42;
 }
-.finish-con {
-    flex-direction: column;
-}
 .footer-blue{
     display: inline-block;
         margin-bottom: 16px;
