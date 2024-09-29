@@ -1,14 +1,16 @@
 ul, ol{
     list-style-type: none;
-    margin: 0%;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
 }
 a{
 
     text-decoration: none;
     color: inherit;
 }
-
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
 .container {
     max-width: 1158px;
     padding-left: 15px;
@@ -24,7 +26,6 @@ img {
     font-family: "Roboto", sans-serif;
     color:#434455;
     background-color: #FFFFFF;
-    max-width: 1158px;
 }
 /*HEADER STYLES*/
 .header {
@@ -53,11 +54,8 @@ img {
     color: #2e2f42;
 }
 .text-blue {
-    display: flex;
-        align-items: center;
-        flex-direction: row;
-        gap: 0px;
-        margin-right: 76px;
+    padding: 24px 0;
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -84,8 +82,8 @@ img {
 }
 .header-address{
     display: flex;
+    align-items: center;
     gap: 40px;
-    padding:24px 0 24px 332px;
 }
 .page-nav .link:hover,
 .page-nav .link:focus {
@@ -93,8 +91,11 @@ img {
 }
 .page-address{
     font-style: normal;
+    margin-left: auto;
 }
 .address{
+    display: block;
+    padding:24px 0;
     font-family: "Roboto", sans-serif;
     font-style: normal;
         font-size: 16px;
@@ -120,6 +121,7 @@ img {
     justify-content: center;
     align-items: center;
     padding: 0%;
+    gap:48px;
 }
 .hero-text{
     font-family: "Roboto", sans-serif;
@@ -145,7 +147,7 @@ img {
         letter-spacing: 0.04em;
         color: #fff;
         border-radius: 4px;
-            padding: 16px 32px
+        padding: 16px 32px
        
 }
 button {
